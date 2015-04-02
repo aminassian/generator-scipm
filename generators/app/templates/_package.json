@@ -1,0 +1,1 @@
+<%= JSON.stringify(_package, null, 4) %>

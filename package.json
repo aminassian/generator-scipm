@@ -1,0 +1,23 @@
+{
+    "name": "generator-scipm",
+    "description": "scipm generator",
+    "version": "0.1.0",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/aminassian/generator-scipm"
+	},
+    "bugs": {
+        "type": "git",
+        "url": "git://github.com/aminassian/generator-scipm/issues"
+    },
+    "keywords": [
+        "yeoman-generator"
+    ],
+    "dependencies": {
+        "yeoman-generator": "^0.17.7",
+        "underscore.string": "*",
+        "jayschema": "*",
+        "scipm": "^0.1.3"
+    },
+    "devDependencies": {}
+}
