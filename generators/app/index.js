@@ -144,7 +144,6 @@ module.exports = generators.Base.extend({
             message : 'github account',
             default : "ACCOUNT"
         }, function (answers) {
-            this._package.license = answers.result;
 
             if (answers.result === 'ACCOUNT') {
                 this.log.conflict('ACCOUNT is not a valid github account');
